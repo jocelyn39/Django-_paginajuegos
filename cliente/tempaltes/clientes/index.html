@@ -1,13 +1,14 @@
  <!DOCTYPE html>
 <html lang="es">
       <head>
+            {% load static %}
             <meta charset="UTF-8">
             <meta name="viewport"
                   content="width=device-width, initial-scale=1.0">
             <title>Videojuegos - Inicio</title>
             <link rel="stylesheet"
                   href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-            <link rel="stylesheet" href="styles.css">
+            <link rel="stylesheet" href="{% static 'clientes/css/style.css' %}">
       </head>
       <body>
 
@@ -59,7 +60,9 @@
                   </ol>
                   <div class="carousel-inner">
                         <div class="carousel-item active">
-                              <img src="img/juego1.jpeg" class="d-block w-100"
+                              <img
+                                    src="{% static 'cliente/img/juego1.jpeg'} class="
+                                    d-block w-100"
                                     alt="...">
                         </div>
                         <div class="carousel-item">
