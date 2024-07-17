@@ -1,0 +1,92 @@
+/* Estilos generales */
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .container {
+      max-width: 1200px; 
+      margin: 0 auto; 
+      padding: 0 15px; 
+  }
+  
+  /* Estilos de la barra de navegación */
+  
+  .navbar {
+      background-color: #343a40; 
+  }
+  
+  .navbar-brand {
+      font-size: 1.8em;
+      color: #fff; 
+  }
+  
+  .navbar-nav .nav-link {
+      font-size: 1.2em;
+      color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover {
+      color: #f8f9fa; 
+  }
+  
+  /* Estilos del Carrusel */
+  
+  .carousel-item img {
+      height: 400px; 
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+      background-color: #000; 
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+      width: 5%; 
+  }
+  
+  /* Estilos del Contenido Principal */
+  
+  .card-deck .card {
+      border: none; 
+  }
+  
+  .card-title {
+      font-size: 1.5em;
+      color: #343a40; 
+  }
+  
+  .card-text {
+      line-height: 1.6;
+      color: #666; 
+  }
+  
+  .btn-primary {
+      background-color: #343a40; 
+      border-color: #343a40; 
+  }
+  
+  .btn-primary:hover {
+      background-color: #555; 
+      border-color: #555; 
+  }
+  
+  /* Estilos del Anuncio */
+  
+  .card-announcement {
+      background-color: #f8f9fa; 
+      padding: 20px;
+  }
+  
+  /* Estilos del pie de página */
+  
+  footer {
+      background-color: #343a40; 
+      color: #fff; 
+      text-align: center; 
+      padding: 20px 0; 
+  }
+  
