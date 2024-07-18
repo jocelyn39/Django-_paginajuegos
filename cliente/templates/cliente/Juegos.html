@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
       <head>
+            {% load static %}
             <meta charset="UTF-8">
             <meta name="viewport"
                   content="width=device-width, initial-scale=1.0">
             <title>Videojuegos - Juegos</title>
             <link rel="stylesheet"
                   href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-            <link rel="stylesheet" href="styles.css">
+            <link rel="stylesheet" href="{% static 'cliente/css/style.css' %}">
       </head>
       <body>
 
@@ -52,7 +53,7 @@
                   <div class="row">
                         <div class="col-md-4 mb-4">
                               <div class="card">
-                                    <img src="img/juego5.jpeg"
+                                    <img src="{% static 'cliente/img/juego5.jpeg'}"
                                           class="card-img-top"
                                           alt="...">
                                     <div class="card-body">
@@ -68,7 +69,7 @@
                         </div>
                         <div class="col-md-4 mb-4">
                               <div class="card">
-                                    <img src="img/juego7.jpeg"
+                                    <img src="{% static 'cliente/img/juego7.jpeg'}"
                                           class="card-img-top"
                                           alt="...">
                                     <div class="card-body">
@@ -84,7 +85,7 @@
                         </div>
                         <div class="col-md-4 mb-4">
                               <div class="card">
-                                    <img src="img/juego8.jpeg"
+                                    <img src="{% static 'cliente/img/juego8.jpeg'}"
                                           class="card-img-top"
                                           alt="...">
                                     <div class="card-body">
